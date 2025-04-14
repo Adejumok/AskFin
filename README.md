@@ -4,10 +4,15 @@ A smart conversational assistant built with Rasa and integrated with Claude (Ant
 
 ## Features  
 🤖 Natural language chat interface for financial education
+
 📊 Supports queries about budgeting, saving, credit, and banking
+
 🌍 Promotes financial inclusion for users with varying levels of knowledge
+
 💡 Handles both guided flows and free-form user questions
+
 🔁 Easy to integrate into websites, mobile apps, or WhatsApp
+
 🧠 Custom Rasa action that routes financial questions to Claude  
 
 ## Technologies Used  
