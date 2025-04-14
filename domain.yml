@@ -1,0 +1,28 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_financial_info
+  - goodbye
+
+# entities:
+#   - submenu
+
+# slots:
+#   submenu:
+#     type: text
+#     mappings:
+#       - type: from_text
+
+responses:
+  utter_greet:
+    - text: "Hey👋! I am AskFin - your Financial Buddy, here to help you understand money matters — budgeting, saving, credit scores, investments, and more!"
+
+  utter_goodbye:
+    - text: "Goodbye! 💸 Keep making smart money moves!"
+
+  utter_default:
+    - text: "I'm not sure about that. Let me find an answer for you!"
+
+actions:
+  - action_ask_claude

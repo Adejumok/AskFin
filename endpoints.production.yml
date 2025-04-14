@@ -1,0 +1,16 @@
+action_endpoint:
+ url: https://rasa-citibot-action-server.onrender.com
+
+# tracker_store:
+#   type: sql
+#   dialect: "postgresql"
+#   url: ${DB_HOST}
+#   port: ${DB_PORT}
+#   username: ${DB_USER}
+#   password: ${DB_PASSWORD}
+#   db: ${DB_NAME}
+#   login_db: "postgres"
+
+# action_endpoint:
+#   url: "http://rasa-actions:5055/webhook"
+

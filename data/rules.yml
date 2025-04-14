@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+  - rule: Greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Answer financial question with Claude
+    steps:
+      - intent: ask_financial_info
+      - action: action_ask_claude
+
+  - rule: GoodBye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
