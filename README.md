@@ -17,10 +17,15 @@ A smart conversational assistant built with Rasa and integrated with Claude (Ant
 
 ## Technologies Used  
 Rasa - NLP engine & conversation orchestration
+
 Claude (LLM) - Real-time financial answer generation
+
 Python -	Custom actions and backend integration
+
 YAML	- Rasa configuration files (nlu, domain)
+
 Ngrok (optional) - Tunneling for local testing
+
 Docker (optional) -	Containerization for deployment
 
 ## Installation and Setup  
